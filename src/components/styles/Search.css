@@ -1,7 +1,6 @@
 @import "../../Theme.css";
 
 .search {
-  width: 40%;
   padding: 10px 30px;
   border-radius: 5px;
   background-color: var(--secondaryLight);
@@ -16,6 +15,3 @@
   color: var(--thirdFontLight);
   background-color: var(--secondaryLight);
 }
-/* .search-box:focus, .search-box:active {
-    o
-} */
