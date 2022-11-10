@@ -1,10 +1,17 @@
 import React from "react";
+import "./styles/Header.css";
 import Search from "../components/Search";
 
 const Header = () => {
   return (
     <div className="header">
-      <Search />
+      <div className="top-wrapper">
+        <div></div>
+        <div>
+          <Search />
+        </div>
+        <div></div>
+      </div>
     </div>
   );
 };
