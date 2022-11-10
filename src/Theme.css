@@ -1,0 +1,18 @@
+:root {
+  --themeLight: #03c2d0;
+  --themeDark: green;
+  --primaryLight: #fff;
+  --secondaryLight: #f3f4f8;
+  --primaryDark: black;
+  --secondaryDark: gray;
+
+  --primaryFontLight: #5d5d64;
+  --secondaryFontLight: #cdced3;
+  --thirdFontLight: #a9a9b1;
+
+  --fontFam: sans-serif, Arial, Helvetica;
+  /* --red: #b00;
+  --grn: green;
+  --blue: #00b;
+  --fullwidth: 100%; */
+}
