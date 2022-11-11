@@ -1,12 +1,12 @@
 import React from "react";
 import "./styles/Search.css";
 
-const Search = () => {
+const Search = ({ theme }) => {
   return (
     <React.Fragment>
-      <div className="search">
+      <div className={`search search-${theme}`}>
         <input
-          className="search-box"
+          className={`search-box search-box-${theme}`}
           placeholder="Search by title"
           type="text"
           name="search"

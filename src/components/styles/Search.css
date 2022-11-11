@@ -2,7 +2,9 @@
 
 .search {
   padding: 10px 30px;
-  border-radius: 5px;
+  border-radius: 6px;
+}
+.search-light {
   background-color: var(--secondaryLight);
 }
 .search-box {
@@ -12,6 +14,12 @@
   height: 25px;
   font-size: 16px;
   font-family: var(--fontFam);
-  color: var(--thirdFontLight);
+}
+.search-box-light {
+  color: var(--primaryFontLight);
   background-color: var(--secondaryLight);
+}
+.search-box-light::placeholder {
+  color: var(--primaryFontLight);
+  opacity: 0.6;
 }

@@ -1,10 +1,13 @@
 @import "../../Theme.css";
 
-.header {
+.header-light {
   background-color: var(--primaryLight);
 }
-
 .top-wrapper {
   display: grid;
+  align-items: center;
   grid-template-columns: 1fr 2fr 1fr;
+}
+.top-col {
+  justify-items: center;
 }

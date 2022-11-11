@@ -1,0 +1,23 @@
+@import "../../Theme.css";
+
+.nav-bar {
+  width: 50%;
+  margin: 20px auto;
+  /* background-color: green; */
+}
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.nav-item {
+  list-style: none;
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--fontFam);
+}
+.nav-item-light {
+  color: var(--primaryFontLight);
+}
+.nav-item-light p:hover {
+  color: var(--themeLight);
+}
