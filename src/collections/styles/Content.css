@@ -1,0 +1,8 @@
+@import "../../Theme.css";
+
+.Content-light {
+  background-color: var(--secondaryLight);
+}
+.Content-dark {
+  background-color: var(--secondaryDark);
+}
