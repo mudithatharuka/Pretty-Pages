@@ -1,10 +1,11 @@
 :root {
   --themeLight: #03c2d0;
   --themeDark: green;
+
   --primaryLight: #fff;
   --secondaryLight: #f3f4f8;
-  --primaryDark: black;
-  --secondaryDark: gray;
+  --primaryDark: #273037;
+  --secondaryDark: #1d2025;
 
   --primaryFontLight: #5d5d64;
   --secondaryFontLight: #cdced3;

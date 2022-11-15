@@ -1,5 +1,5 @@
 import React from "react";
-import { BsDot } from "react-icons/bs";
+import { GoPrimitiveDot } from "react-icons/go";
 import "./styles/NavBar.css";
 
 const NavBar = ({ theme }) => {
@@ -8,19 +8,19 @@ const NavBar = ({ theme }) => {
       <ul className="grid-wrapper">
         <li className={`nav-item nav-item-${theme}`}>
           <p>Home</p>
-          <BsDot />
+          <GoPrimitiveDot />
         </li>
         <li className={`nav-item nav-item-${theme}`}>
           <p>Home</p>
-          <BsDot />
+          <GoPrimitiveDot />
         </li>
         <li className={`nav-item nav-item-${theme}`}>
           <p>Home</p>
-          <BsDot />
+          <GoPrimitiveDot />
         </li>
         <li className={`nav-item nav-item-${theme}`}>
           <p>Home</p>
-          <BsDot />
+          <GoPrimitiveDot />
         </li>
       </ul>
     </div>

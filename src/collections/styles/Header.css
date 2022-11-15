@@ -8,6 +8,18 @@
   align-items: center;
   grid-template-columns: 1fr 2fr 1fr;
 }
-.top-col {
-  justify-items: center;
+.top-col-left {
+  text-align: left;
+}
+.top-col-right {
+  text-align: right;
+}
+.icon-dark {
+  color: var(--primaryDark);
+  font-size: 25px;
+  margin-right: 2px;
+}
+.icon-light {
+  color: var(--primaryLight);
+  font-size: 33px;
 }

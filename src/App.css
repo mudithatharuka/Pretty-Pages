@@ -1,5 +1,12 @@
+@import "./Theme.css";
+
 .App {
-  width: 90%;
-  background-color: green;
+  width: 80%;
   margin: 50px auto;
+}
+.App-light {
+  background-color: var(--primaryLight);
+}
+.App-dark {
+  background-color: var(--primaryDark);
 }
