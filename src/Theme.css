@@ -1,4 +1,6 @@
 :root {
+  --theme: #03c2d0;
+
   --themeLight: #03c2d0;
   --themeDark: green;
 
@@ -10,6 +12,7 @@
   --primaryFontLight: #5d5d64;
   --secondaryFontLight: #cdced3;
   --thirdFontLight: #a9a9b1;
+  --primaryFontDark: #e4e7e9;
 
   --fontFam: sans-serif, Arial, Helvetica;
   /* --red: #b00;

@@ -7,6 +7,9 @@
 .search-light {
   background-color: var(--secondaryLight);
 }
+.search-dark {
+  background-color: var(--secondaryDark);
+}
 .search-box {
   border: none;
   outline: none;
@@ -19,7 +22,15 @@
   color: var(--primaryFontLight);
   background-color: var(--secondaryLight);
 }
+.search-box-dark {
+  color: var(--primaryFontDark);
+  background-color: var(--secondaryDark);
+}
 .search-box-light::placeholder {
   color: var(--primaryFontLight);
+  opacity: 0.6;
+}
+.search-box-dark::placeholder {
+  color: var(--primaryFontDark);
   opacity: 0.6;
 }
