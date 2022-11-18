@@ -1,16 +1,14 @@
 @import "../../Theme.css";
 
-.informat {
-  height: 69vh;
-  position: sticky;
-  top: 0;
+.bookcard {
+  height: 39.45vh;
   border-radius: 10px;
 }
-.informat-light {
+.bookcard-light {
   background-color: var(--primaryLight);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 50px 0 rgba(0, 0, 0, 0.16);
 }
-.informat-dark {
+.bookcard-dark {
   background-color: var(--primaryDark);
   box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.1),
     0 1px 50px 0 rgba(255, 255, 255, 0.16);

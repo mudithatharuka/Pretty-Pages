@@ -1,4 +1,5 @@
 import React from "react";
+import Bookcard from "../components/Bookcard";
 import Headmat from "./Headmat";
 import Informat from "./Informat";
 import "./styles/Content.css";
@@ -10,6 +11,13 @@ const Content = ({ theme }) => {
 
       <div className={`right-content right-content-${theme}`}>
         <Headmat theme={theme} />
+        <div className={`inner-right-content inner-right-content-${theme}`}>
+          <Bookcard theme={theme} />
+          <Bookcard theme={theme} />
+          <Bookcard theme={theme} />
+          <Bookcard theme={theme} />
+          <Bookcard theme={theme} />
+        </div>
       </div>
     </div>
   );
