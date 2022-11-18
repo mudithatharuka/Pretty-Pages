@@ -4,10 +4,15 @@
   padding: 25px;
   border-radius: 15px;
   height: 69vh;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
 }
 .Content-light {
   background-color: var(--secondaryLight);
 }
 .Content-dark {
   background-color: var(--secondaryDark);
+}
+.right-content {
+  padding-left: 25px;
 }
