@@ -1,6 +1,7 @@
 import React from "react";
 import { MdDarkMode } from "react-icons/md";
 import { BsSunFill } from "react-icons/bs";
+import { FaHeart } from "react-icons/fa";
 import "./styles/Header.css";
 import Search from "../components/Search";
 import NavBar from "../components/NavBar";
@@ -15,6 +16,7 @@ const Header = ({ theme, setTheme }) => {
           <Search theme={theme} />
         </div>
         <div className="top-col top-col-right">
+          <FaHeart className="icon icon-heart" />
           {theme === "light" ? (
             <MdDarkMode
               className="icon icon-dark"
