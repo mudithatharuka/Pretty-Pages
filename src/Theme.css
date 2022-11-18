@@ -6,8 +6,10 @@
 
   --primaryLight: #fff;
   --secondaryLight: #f3f4f8;
-  --primaryDark: #273037;
-  --secondaryDark: #1f2933;
+  /* --primaryDark: #273037;
+  --secondaryDark: #1f2933; */
+  --primaryDark: #202124;
+  --secondaryDark: #303134;
 
   --primaryFontLight: #5d5d64;
   --secondaryFontLight: #cdced3;

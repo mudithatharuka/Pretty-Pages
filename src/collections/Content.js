@@ -1,10 +1,11 @@
 import React from "react";
+import Informat from "./Informat";
 import "./styles/Content.css";
 
 const Content = ({ theme }) => {
   return (
     <div className={`Content Content-${theme}`}>
-      <h1>Hey there</h1>
+      <Informat theme={theme} />
     </div>
   );
 };

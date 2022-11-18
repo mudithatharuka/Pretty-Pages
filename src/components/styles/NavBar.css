@@ -18,6 +18,13 @@
 .nav-item-light {
   color: var(--primaryFontLight);
 }
-.nav-item-light p:hover {
+.nav-item-dark {
+  color: var(--primaryFontDark);
+}
+.nav-item :hover {
+  cursor: pointer;
+  color: var(--themeLight);
+}
+.nav-item-icon {
   color: var(--themeLight);
 }

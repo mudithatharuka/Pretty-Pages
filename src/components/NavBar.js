@@ -8,19 +8,19 @@ const NavBar = ({ theme }) => {
       <ul className="grid-wrapper">
         <li className={`nav-item nav-item-${theme}`}>
           <p>Home</p>
-          <GoPrimitiveDot />
+          <GoPrimitiveDot className="nav-item-icon" />
         </li>
         <li className={`nav-item nav-item-${theme}`}>
           <p>Home</p>
-          <GoPrimitiveDot />
+          <GoPrimitiveDot className="nav-item-icon" />
         </li>
         <li className={`nav-item nav-item-${theme}`}>
           <p>Home</p>
-          <GoPrimitiveDot />
+          <GoPrimitiveDot className="nav-item-icon" />
         </li>
         <li className={`nav-item nav-item-${theme}`}>
           <p>Home</p>
-          <GoPrimitiveDot />
+          <GoPrimitiveDot className="nav-item-icon" />
         </li>
       </ul>
     </div>
