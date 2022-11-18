@@ -1,5 +1,10 @@
 @import "../../Theme.css";
 
+.Content {
+  padding: 25px;
+  border-radius: 15px;
+  height: 69vh;
+}
 .Content-light {
   background-color: var(--secondaryLight);
 }

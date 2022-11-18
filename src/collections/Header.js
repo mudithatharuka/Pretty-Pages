@@ -17,7 +17,7 @@ const Header = ({ theme, setTheme }) => {
         <div className="top-col top-col-right">
           {theme === "light" ? (
             <MdDarkMode
-              className="icon-dark"
+              className="icon icon-dark"
               onClick={() => {
                 setTheme("dark");
                 document.body.bgColor = Theme.__primaryDark;
@@ -25,7 +25,7 @@ const Header = ({ theme, setTheme }) => {
             />
           ) : (
             <BsSunFill
-              className="icon-light"
+              className="icon icon-light"
               onClick={() => {
                 setTheme("light");
                 document.body.bgColor = Theme.__primaryLight;
