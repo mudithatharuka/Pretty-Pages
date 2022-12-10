@@ -36,9 +36,7 @@ const Header = ({ theme, setTheme }) => {
           )}
         </div>
       </div>
-      <div className="bottom-wrapper">
-        <NavBar theme={theme} />
-      </div>
+      {/* <div className="bottom-wrapper"><NavBar theme={theme} /></div> */}
     </div>
   );
 };
