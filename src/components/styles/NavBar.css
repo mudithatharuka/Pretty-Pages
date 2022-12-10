@@ -16,10 +16,15 @@
   box-sizing: content-box;
   font-family: var(--fontFam);
 }
-.nav-item-light p {
+.nav-item p {
+  font-size: 15px;
+}
+.nav-item-light {
+  text-decoration: none;
   color: var(--primaryFontLight);
 }
-.nav-item-dark p {
+.nav-item-dark {
+  text-decoration: none;
   color: var(--primaryFontDark);
 }
 .nav-item :hover {
