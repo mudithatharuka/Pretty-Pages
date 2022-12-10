@@ -5,10 +5,10 @@
   border-radius: 6px;
 }
 .search-light {
-  background-color: var(--secondaryLight);
+  background-color: var(--primaryLight);
 }
 .search-dark {
-  background-color: var(--secondaryDark);
+  background-color: var(--primaryDark);
 }
 .search-box {
   border: none;
@@ -20,11 +20,11 @@
 }
 .search-box-light {
   color: var(--primaryFontLight);
-  background-color: var(--secondaryLight);
+  background-color: var(--primaryLight);
 }
 .search-box-dark {
   color: var(--primaryFontDark);
-  background-color: var(--secondaryDark);
+  background-color: var(--primaryDark);
 }
 .search-box-light::placeholder {
   color: var(--primaryFontLight);

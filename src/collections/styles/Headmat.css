@@ -1,17 +1,17 @@
 @import "../../Theme.css";
 
 .headmat {
-  height: 30%;
+  height: 24.1%;
   width: 100%;
   /* margin-left: 15px; */
-  border-radius: 10px;
+  border-radius: var(--borderRadS);
 }
 .headmat-light {
   background-color: var(--primaryLight);
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 50px 0 rgba(0, 0, 0, 0.16);
+  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 50px 0 rgba(0, 0, 0, 0.16); */
 }
 .headmat-dark {
   background-color: var(--primaryDark);
-  box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.1),
-    0 1px 50px 0 rgba(255, 255, 255, 0.16);
+  /* box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.1),
+    0 1px 50px 0 rgba(255, 255, 255, 0.16); */
 }

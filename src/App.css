@@ -2,11 +2,13 @@
 
 .App {
   width: 80%;
-  margin: 50px auto;
+  margin: 35px auto;
+  padding: 30px;
+  border-radius: var(--borderRadSM);
 }
 .App-light {
-  background-color: var(--primaryLight);
+  background-color: var(--secondaryLight);
 }
 .App-dark {
-  background-color: var(--primaryDark);
+  background-color: var(--secondaryDark);
 }

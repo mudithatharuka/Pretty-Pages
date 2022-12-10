@@ -1,8 +1,8 @@
 @import "../../Theme.css";
 
-.header-light {
+/* .header-light {
   background-color: var(--primaryLight);
-}
+} */
 .top-wrapper {
   display: grid;
   align-items: center;

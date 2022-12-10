@@ -1,18 +1,18 @@
 @import "../../Theme.css";
 
 .Content {
-  padding: 25px;
-  border-radius: 15px;
-  height: 69vh;
+  /* padding: 25px; */
+  border-radius: var(--borderRadS);
+  height: 65vh;
   display: grid;
   grid-template-columns: 1fr 4fr;
   overflow: auto;
 }
 .Content-light {
-  background-color: var(--secondaryLight);
+  background-color: var(--primaryLight);
 }
 .Content-dark {
-  background-color: var(--secondaryDark);
+  background-color: var(--primaryDark);
 }
 .right-content {
   padding-left: 25px;

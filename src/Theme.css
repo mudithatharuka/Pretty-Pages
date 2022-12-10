@@ -17,6 +17,9 @@
   --primaryFontDark: #e4e7e9;
 
   --fontFam: sans-serif, Arial, Helvetica;
+
+  --borderRadS: 10px;
+  --borderRadSM: 15px;
   /* --red: #b00;
   --grn: green;
   --blue: #00b;

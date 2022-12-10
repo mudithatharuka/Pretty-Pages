@@ -2,7 +2,7 @@
 
 .bookcard {
   height: 40vh;
-  border-radius: 10px;
+  border-radius: var(--borderRadS);
 }
 .bookcard-light {
   background-color: var(--primaryLight);
