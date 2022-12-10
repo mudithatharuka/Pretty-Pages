@@ -13,18 +13,21 @@
   list-style: none;
   text-align: center;
   font-weight: bold;
+  box-sizing: content-box;
   font-family: var(--fontFam);
 }
-.nav-item-light {
+.nav-item-light p {
   color: var(--primaryFontLight);
 }
-.nav-item-dark {
+.nav-item-dark p {
   color: var(--primaryFontDark);
 }
 .nav-item :hover {
   cursor: pointer;
   color: var(--themeLight);
 }
+
 .nav-item-icon {
+  font-size: 12px;
   color: var(--themeLight);
 }

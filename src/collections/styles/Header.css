@@ -29,9 +29,9 @@
 .icon-dark {
   color: var(--primaryDark);
   font-size: 25px;
-  margin-right: 2px;
+  /* margin-right: 2px; */
 }
 .icon-light {
   color: var(--primaryLight);
-  font-size: 33px;
+  font-size: 25px;
 }
