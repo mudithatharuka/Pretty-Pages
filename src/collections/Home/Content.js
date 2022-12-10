@@ -1,8 +1,8 @@
 import React from "react";
-import Bookcard from "../components/Bookcard";
+import Bookcard from "../../components/Bookcard";
 import Headmat from "./Headmat";
 import Informat from "./Informat";
-import "./styles/Content.css";
+import "../styles/Home/Content.css";
 
 const Content = ({ theme }) => {
   return (

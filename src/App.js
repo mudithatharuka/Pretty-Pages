@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import Content from "./collections/Content";
+import Content from "./collections/Home/Content";
 import Header from "./collections/Header";
 
 function App() {

@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/Headmat.css";
+import "../styles/Home/Headmat.css";
 
 const Headmat = ({ theme }) => {
   return <div className={`headmat headmat-${theme}`}>hhh</div>;
