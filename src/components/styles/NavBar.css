@@ -33,6 +33,7 @@
 }
 
 .nav-item-icon {
+  /* visibility: hidden; */
   font-size: 12px;
   color: var(--themeLight);
 }
