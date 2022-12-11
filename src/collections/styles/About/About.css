@@ -1,0 +1,13 @@
+@import "../../../Theme.css";
+
+.About {
+  border-radius: var(--borderRadS);
+  height: var(--tabHeight);
+  overflow: auto;
+}
+.About-light {
+  background-color: var(--primaryLight);
+}
+.About-dark {
+  background-color: var(--primaryDark);
+}

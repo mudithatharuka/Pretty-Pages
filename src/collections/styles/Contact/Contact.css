@@ -1,0 +1,11 @@
+.Contact {
+  border-radius: var(--borderRadS);
+  height: var(--tabHeight);
+  overflow: auto;
+}
+.Contact-light {
+  background-color: var(--primaryLight);
+}
+.Contact-dark {
+  background-color: var(--primaryDark);
+}

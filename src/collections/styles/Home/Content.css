@@ -3,7 +3,7 @@
 .Content {
   /* padding: 25px; */
   border-radius: var(--borderRadS);
-  height: 65vh;
+  height: var(--tabHeight);
   display: grid;
   grid-template-columns: 1fr 4fr;
   overflow: auto;
