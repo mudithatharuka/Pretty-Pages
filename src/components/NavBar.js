@@ -54,40 +54,32 @@ const NavBar = ({ theme }) => {
           <Link to="/" className={` nav-item-${theme}`}>
             <p>Home</p>
           </Link>
-          {location.pathname === "/" ? (
+          {location.pathname === "/" && (
             <GoPrimitiveDot className="nav-item-icon" />
-          ) : (
-            ""
           )}
         </li>
         <li className={`nav-item `}>
           <Link to="/about" className={`nav-item-${theme}`}>
             <p>About</p>
           </Link>
-          {location.pathname === "/about" ? (
+          {location.pathname === "/about" && (
             <GoPrimitiveDot className="nav-item-icon" />
-          ) : (
-            ""
           )}
         </li>
         <li className={`nav-item `}>
           <Link to="/contact" className={`nav-item-${theme}`}>
             <p>Contact</p>
           </Link>
-          {location.pathname === "/contact" ? (
+          {location.pathname === "/contact" && (
             <GoPrimitiveDot className="nav-item-icon" />
-          ) : (
-            ""
           )}
         </li>
         <li className={`nav-item `}>
           <Link to="/ex" className={`nav-item-${theme}`}>
             <p>Extra</p>
           </Link>
-          {location.pathname === "/ex" ? (
+          {location.pathname === "/ex" && (
             <GoPrimitiveDot className="nav-item-icon" />
-          ) : (
-            ""
           )}
         </li>
       </ul>
