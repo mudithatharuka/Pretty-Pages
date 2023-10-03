@@ -8,6 +8,7 @@ import About from "./collections/About/About";
 import Contact from "./collections/Contact/Contact";
 
 function App() {
+  // Declaration of the variable for the theme: light or dark
   const [theme, setTheme] = useState("light");
 
   return (

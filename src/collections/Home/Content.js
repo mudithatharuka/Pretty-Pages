@@ -8,7 +8,6 @@ const Content = ({ theme }) => {
   return (
     <div className={`Content Content-${theme}`}>
       <Informat theme={theme} />
-
       <div className={`right-content right-content-${theme}`}>
         <Headmat theme={theme} />
         <div className={`inner-right-content inner-right-content-${theme}`}>

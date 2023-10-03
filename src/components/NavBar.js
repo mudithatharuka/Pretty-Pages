@@ -1,51 +1,53 @@
-import React, { useState } from "react";
+import React /*, { useState }*/ from "react";
 import { Link, useLocation } from "react-router-dom";
 import { GoPrimitiveDot } from "react-icons/go";
 import "./styles/NavBar.css";
 
-const getCurrTab = (pathName) => {
-  let page;
-  switch (pathName) {
-    case "/":
-      page = "Home";
-      break;
-    case "/about":
-      page = "About";
-      break;
-    case "/contact":
-      page = "Contact";
-      break;
-    case "/":
-      page = "";
-      break;
+// const getCurrTab = (pathName) => {
+//   let page;
+//   switch (pathName) {
+//     case "/":
+//       page = "Home";
+//       break;
+//     case "/about":
+//       page = "About";
+//       break;
+//     case "/contact":
+//       page = "Contact";
+//       break;
+//     case "/":
+//       page = "";
+//       break;
 
-    default:
-      page = "";
-      break;
-  }
-  return page;
-};
+//     default:
+//       page = "";
+//       break;
+//   }
+//   return page;
+// };
 
 const NavBar = ({ theme }) => {
+  // Location/Path is used to show/hide dot of the current selected tab in the NavBar
   const location = useLocation();
+
   // const [tab, setTab] = useState(getCurrTab(location.pathname));
 
-  const changeActive = (event) => {
-    let siblings = [];
-    let s = event.target.parentNode.parentNode.parentNode.firstChild;
+  // const changeActive = (event) => {
+  //   let siblings = [];
+  //   let s = event.target.parentNode.parentNode.parentNode.firstChild;
 
-    do {
-      siblings.push(s);
-    } while ((s = s.nextSibling));
+  //   do {
+  //     siblings.push(s);
+  //   } while ((s = s.nextSibling));
 
-    for (let i in siblings) {
-      if (siblings[i].textContent === event.target.textContent) {
-        siblings[i].lastChild.style.visibility = "visible";
-      } else {
-        siblings[i].lastChild.style.visibility = "hidden";
-      }
-    }
-  };
+  //   for (let i in siblings) {
+  //     if (siblings[i].textContent === event.target.textContent) {
+  //       siblings[i].lastChild.style.visibility = "visible";
+  //     } else {
+  //       siblings[i].lastChild.style.visibility = "hidden";
+  //     }
+  //   }
+  // };
 
   return (
     <div className="nav-bar">
